@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>oracle</name>
+  <classpath>C:\Users\mahmu\JaspersoftWorkspace\jasper_all_db_connection\jarfile\ojdbc11 (1).jar</classpath>
+  <driver>oracle.jdbc.driver.OracleDriver</driver>
+  <username>hr</username>
+  <password>oracle</password>
+  <url>jdbc:oracle:thin:@192.168.56.101:1521/freepdb1</url>
+  <database></database>
+  <savePassword>true</savePassword>
+  <serverAddress></serverAddress>
+</jdbcDataAdapter>

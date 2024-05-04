@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 9.0.0.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Oracle_test" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f471aa27-3384-4103-9947-743869933fc7">
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[IkVNUExPWUVFUyIgQVMgLDEzOCw3OCxkOGRkYzI5Yy05ODAyLTQzZWQtYWIzNC03YWI4ZGYyYjlk
+MjQ7]]>
+	</property>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle.jrdax"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT "EMPLOYEE_ID",
+	"FIRST_NAME",
+	"LAST_NAME",
+	"EMAIL",
+	"PHONE_NUMBER",
+	"HIRE_DATE"
+FROM "EMPLOYEES"]]>
+	</queryString>
+	<field name="EMPLOYEE_ID" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="EMPLOYEE_ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="EMPLOYEE_ID"/>
+	</field>
+	<field name="FIRST_NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="FIRST_NAME"/>
+		<property name="com.jaspersoft.studio.field.label" value="FIRST_NAME"/>
+	</field>
+	<field name="LAST_NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="LAST_NAME"/>
+		<property name="com.jaspersoft.studio.field.label" value="LAST_NAME"/>
+	</field>
+	<field name="EMAIL" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="EMAIL"/>
+		<property name="com.jaspersoft.studio.field.label" value="EMAIL"/>
+	</field>
+	<field name="PHONE_NUMBER" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="PHONE_NUMBER"/>
+		<property name="com.jaspersoft.studio.field.label" value="PHONE_NUMBER"/>
+	</field>
+	<field name="HIRE_DATE" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="HIRE_DATE"/>
+		<property name="com.jaspersoft.studio.field.label" value="HIRE_DATE"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="95" height="30" uuid="512f5591-65be-4aea-adac-da51a0c0f187">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="37979f70-62dd-4949-8f80-e503dd6368c3"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[EMPLOYEE_ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="95" y="0" width="92" height="30" uuid="7c6f9f4d-8e3d-4132-bd39-e6c62df3b6a7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b5aaf4fb-db5a-4834-8319-5a641cfdd3e6"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[FIRST_NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="0" width="92" height="30" uuid="0c968cbe-4bf4-4ee5-8d70-4ef50843a133">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d4d37bb1-dd31-4669-ae5d-30f41d8c464b"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[LAST_NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="0" width="92" height="30" uuid="067c34ea-7554-408a-9602-d7d9c8c65b43">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3e445c1f-930e-4be2-b1dd-43ed7f8a7d84"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[EMAIL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="371" y="0" width="92" height="30" uuid="d829ccb3-2c51-461c-b9e6-0ce4f87533df">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ca1d89cc-bffc-4d09-b8f8-1543ea40cc6f"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[PHONE_NUMBER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="463" y="0" width="92" height="30" uuid="8a6900b4-24e8-4ac1-b342-bbe26f6f78f9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8fb5c2ce-6cbf-44c0-85c7-d0ca52ad0231"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[HIRE_DATE]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="95" height="30" uuid="71c1df28-6474-4d44-9f0c-8d30be19794f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="37979f70-62dd-4949-8f80-e503dd6368c3"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{EMPLOYEE_ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="0" width="92" height="30" uuid="5a520e11-b625-4a4e-98b2-478a4a75640a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b5aaf4fb-db5a-4834-8319-5a641cfdd3e6"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{FIRST_NAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="187" y="0" width="92" height="30" uuid="993d2511-08c6-45e8-b641-6ec41dddbc67">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d4d37bb1-dd31-4669-ae5d-30f41d8c464b"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{LAST_NAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="0" width="92" height="30" uuid="65ea0480-0cbb-4160-be97-4bdd8c74feba">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3e445c1f-930e-4be2-b1dd-43ed7f8a7d84"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{EMAIL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="0" width="92" height="30" uuid="155879b7-1e84-43e3-8310-25f756dc6720">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ca1d89cc-bffc-4d09-b8f8-1543ea40cc6f"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{PHONE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="463" y="0" width="92" height="30" uuid="a81ec024-933c-4d99-b3ed-762d9f905c8a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8fb5c2ce-6cbf-44c0-85c7-d0ca52ad0231"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{HIRE_DATE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

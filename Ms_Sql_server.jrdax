@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>sqlserver</name>
+  <driver>net.sourceforge.jtds.jdbc.Driver</driver>
+  <username>sa</username>
+  <password>Zit@321</password>
+  <url>jdbc:jtds:sqlserver://localhost/Khajna</url>
+  <database></database>
+  <savePassword>true</savePassword>
+  <serverAddress></serverAddress>
+</jdbcDataAdapter>
